@@ -9,114 +9,69 @@ url = "#"
 identifier = "products"
 weight = 1
 
-# --- Category: AI (Label Only) ---
+# --- AI Segment ---
 [[main]]
 parent = "products"
-name = "AI"
-url = "#"
-identifier = "cat-ai"
+name = "AI // Distributed Inference"
+url = "/products/distributed-inference"
 weight = 10
 
 [[main]]
-parent = "cat-ai"
-name = "Distributed Inference"
-url = "/products/distributed-inference"
-post = "Deploy and scale AI anywhere" # 对应截图中的描述文案
-weight = 1
-
-[[main]]
-parent = "cat-ai"
-name = "Fabric for AI"
+parent = "products"
+name = "AI // Fabric for AI"
 url = "/products/ai-fabric"
-post = "High-speed network for AI connectivity"
-weight = 2
+weight = 11
 
-[[main]]
-parent = "cat-ai"
-name = "AI Gateway"
-url = "/products/ai-gateway"
-post = "One-stop access to global models"
-weight = 3
-
-# --- Category: Compute (Label Only) ---
 [[main]]
 parent = "products"
-name = "Compute"
-url = "#"
-identifier = "cat-compute"
+name = "AI // API Gateway"
+url = "/products/ai-gateway"
+weight = 12
+
+# --- Compute Segment ---
+[[main]]
+parent = "products"
+name = "COMPUTE // Bare Metal"
+url = "/products/bare-metal"
 weight = 20
 
 [[main]]
-parent = "cat-compute"
-name = "Bare Metal"
-url = "/products/bare-metal"
-post = "On-demand dedicated servers"
-weight = 1
-
-[[main]]
-parent = "cat-compute"
-name = "Virtual Machine"
+parent = "products"
+name = "COMPUTE // Virtual Machine"
 url = "/products/virtual-machine"
-post = "Scalable virtual servers"
-weight = 2
+weight = 21
 
-# --- Category: Networking (Label Only) ---
+# --- Networking Segment ---
 [[main]]
 parent = "products"
-name = "Networking"
-url = "#"
-identifier = "cat-networking"
+name = "NETWORK // Private Connect (IEPL)"
+url = "/products/private-connect"
 weight = 30
 
 [[main]]
-parent = "cat-networking"
-name = "Cloud Connect"
+parent = "products"
+name = "NETWORK // Cloud Connect"
 url = "/products/cloud-connect"
-post = "Onramp to public clouds"
-weight = 1
+weight = 31
 
-[[main]]
-parent = "cat-networking"
-name = "Private Connect"
-url = "/products/private-connect"
-post = "Layer 2 point-to-point connectivity"
-weight = 2
-
-[[main]]
-parent = "cat-networking"
-name = "IP Transit & DIA"
-url = "/products/ip-transit"
-post = "High performance internet access"
-weight = 3
-
-[[main]]
-parent = "cat-networking"
-name = "Virtual Edge"
-url = "/products/virtual-edge"
-post = "Virtual access gateway to private backbone"
-weight = 4
-
-# --- Category: Edge & IDC (Label Only) ---
 [[main]]
 parent = "products"
-name = "Edge & IDC"
-url = "#"
-identifier = "cat-idc"
-weight = 40
+name = "NETWORK // IP Transit & DIA"
+url = "/products/ip-transit"
+weight = 32
 
 [[main]]
-parent = "cat-idc"
-name = "Colocation"
+parent = "products"
+name = "NETWORK // Virtual Edge"
+url = "/products/virtual-edge"
+weight = 33
+
+# --- IDC ---
+[[main]]
+parent = "products"
+name = "COLOCATION // Edge IDC"
 url = "/products/colocation"
-post = "Tier-III data centers in key cities"
-weight = 1
-
-[[main]]
-parent = "cat-idc"
-name = "Edge Data Center"
-url = "/products/edge-idc"
-post = "Colocation close to end users"
-weight = 2
+weight = 40
 
 # --- Top Level: Solutions ---
 [[main]]
@@ -129,24 +84,21 @@ weight = 2
 parent = "solutions"
 name = "Cross-border Networking"
 url = "/solutions/cross-border"
-post = "Optimized global-to-China connectivity"
 weight = 1
 
 [[main]]
 parent = "solutions"
 name = "China AI Model Access"
 url = "/solutions/ai-access"
-post = "Simplified access to DeepSeek & Qwen"
 weight = 2
 
 [[main]]
 parent = "solutions"
 name = "Compliance & ICP Support"
 url = "/solutions/compliance"
-post = "Navigating China's regulatory landscape"
 weight = 3
 
-# --- Top Level: Other ---
+# --- Top Level: Others ---
 [[main]]
 name = "Resources"
 url = "/resources"
@@ -166,7 +118,7 @@ weight = 5
 # Footer Menu
 # -------------------------------------------------------------------
 [[footer]]
-name = "Private Connect (IEPL)"
+name = "Private Connect"
 url = "/products/private-connect"
 weight = 1
 
@@ -186,6 +138,6 @@ url = "/solutions/compliance"
 weight = 4
 
 [[footer]]
-name = "Privacy Policy"
-url = "/privacy-policy"
+name = "Terms of Service"
+url = "/terms"
 weight = 5
