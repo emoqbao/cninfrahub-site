@@ -3,7 +3,7 @@
 banner:
   title: "Your One-Stop Gateway to China's Compliant Infrastructure."
   content: "While others focus on software logic, we focus on the **Physical Reality** of China connectivity. No AI fluff—just low-latency circuits, compliant cloud accounts, and real-world infrastructure."
-#  image: "/images/banner.png"
+  image: "/images/banner.png"
   button:
     enable: true
     label: " View Network Matrix 🚀"
