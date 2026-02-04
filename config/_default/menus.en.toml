@@ -1,143 +1,100 @@
 # -------------------------------------------------------------------
-# Main Menu (Header)
+# Main Menu (Header) - Flat Architecture
 # -------------------------------------------------------------------
-
-# --- Top Level: Products ---
-[[main]]
-name = "Products"
-url = "#"
-identifier = "products"
-weight = 1
 
 # --- AI Segment ---
 [[main]]
-parent = "products"
-name = "AI // Distributed Inference"
-url = "/products/distributed-inference"
-weight = 10
-
-[[main]]
-parent = "products"
-name = "AI // Fabric for AI"
-url = "/products/ai-fabric"
-weight = 11
-
-[[main]]
-parent = "products"
-name = "AI // API Gateway"
-url = "/products/ai-gateway"
-weight = 12
-
-# --- Compute Segment ---
-[[main]]
-parent = "products"
-name = "COMPUTE // Bare Metal"
-url = "/products/bare-metal"
-weight = 20
-
-[[main]]
-parent = "products"
-name = "COMPUTE // Virtual Machine"
-url = "/products/virtual-machine"
-weight = 21
-
-# --- Networking Segment ---
-[[main]]
-parent = "products"
-name = "NETWORK // Private Connect (IEPL)"
-url = "/products/private-connect"
-weight = 30
-
-[[main]]
-parent = "products"
-name = "NETWORK // Cloud Connect"
-url = "/products/cloud-connect"
-weight = 31
-
-[[main]]
-parent = "products"
-name = "NETWORK // IP Transit & DIA"
-url = "/products/ip-transit"
-weight = 32
-
-[[main]]
-parent = "products"
-name = "NETWORK // Virtual Edge"
-url = "/products/virtual-edge"
-weight = 33
-
-# --- IDC ---
-[[main]]
-parent = "products"
-name = "COLOCATION // Edge IDC"
-url = "/products/colocation"
-weight = 40
-
-# --- Top Level: Solutions ---
-[[main]]
-name = "Solutions"
+name = "AI"
 url = "#"
-identifier = "solutions"
-weight = 2
-
-[[main]]
-parent = "solutions"
-name = "Cross-border Networking"
-url = "/solutions/cross-border"
+identifier = "ai"
 weight = 1
 
 [[main]]
-parent = "solutions"
-name = "China AI Model Access"
-url = "/solutions/ai-access"
+parent = "ai"
+name = "Distributed Inference"
+url = "/products/distributed-inference"
+weight = 1
+
+[[main]]
+parent = "ai"
+name = "Fabric for AI"
+url = "/products/ai-fabric"
 weight = 2
 
 [[main]]
-parent = "solutions"
-name = "Compliance & ICP Support"
-url = "/solutions/compliance"
+parent = "ai"
+name = "API Gateway"
+url = "/products/ai-gateway"
 weight = 3
 
-# --- Top Level: Others ---
+# --- Compute Segment ---
+[[main]]
+name = "Compute"
+url = "#"
+identifier = "compute"
+weight = 2
+
+[[main]]
+parent = "compute"
+name = "Bare Metal"
+url = "/products/bare-metal"
+weight = 1
+
+[[main]]
+parent = "compute"
+name = "Virtual Machine"
+url = "/products/virtual-machine"
+weight = 2
+
+# --- Networking Segment ---
+[[main]]
+name = "Networking"
+url = "#"
+identifier = "networking"
+weight = 3
+
+[[main]]
+parent = "networking"
+name = "Private Connect (IEPL)"
+url = "/products/private-connect"
+weight = 1
+
+[[main]]
+parent = "networking"
+name = "Cloud Connect"
+url = "/products/cloud-connect"
+weight = 2
+
+[[main]]
+parent = "networking"
+name = "IP Transit & DIA"
+url = "/products/ip-transit"
+weight = 3
+
+[[main]]
+parent = "networking"
+name = "Virtual Edge"
+url = "/products/virtual-edge"
+weight = 4
+
+# --- IDC ---
+[[main]]
+name = "Colocation"
+url = "/products/colocation"
+weight = 4
+
+# --- Others ---
+[[main]]
+name = "Solutions"
+url = "/solutions"
+weight = 5
+
 [[main]]
 name = "Resources"
 url = "/resources"
-weight = 3
-
-[[main]]
-name = "Blog"
-url = "/blog"
-weight = 4
+weight = 6
 
 [[main]]
 name = "Company"
 url = "/about"
-weight = 5
-
-# -------------------------------------------------------------------
-# Footer Menu
-# -------------------------------------------------------------------
-[[footer]]
-name = "Private Connect"
-url = "/products/private-connect"
-weight = 1
-
-[[footer]]
-name = "AI Gateway"
-url = "/products/ai-gateway"
-weight = 2
-
-[[footer]]
-name = "Network Matrix"
-url = "/resources/network-matrix"
-weight = 3
-
-[[footer]]
-name = "Compliance Guide"
-url = "/solutions/compliance"
-weight = 4
-
-[[footer]]
-name = "Terms of Service"
-url = "/terms"
-weight = 5
+weight = 7
