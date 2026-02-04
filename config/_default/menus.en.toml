@@ -38,13 +38,13 @@ weight = 2
 parent = "compute"
 name = "Bare Metal"
 url = "/products/bare-metal"
-weight = 1
+weight = 2
 
 [[main]]
 parent = "compute"
 name = "Virtual Machine"
 url = "/products/virtual-machine"
-weight = 2
+weight = 1
 
 # --- Networking Segment ---
 [[main]]
@@ -79,9 +79,16 @@ weight = 4
 
 # --- IDC ---
 [[main]]
+name = "Data Center"
+url = "#"
+identifier = "datacenter"
+weight = 4
+
+[[main]]
+parent = "datacenter"
 name = "Colocation"
 url = "/products/colocation"
-weight = 4
+weight = 1
 
 # --- Others ---
 [[main]]
