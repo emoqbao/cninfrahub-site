@@ -1,72 +1,143 @@
-############# English navigation ##############
-# --- Products Menu ---
+# -------------------------------------------------------------------
+# Main Menu (Header)
+# -------------------------------------------------------------------
 
-# AI Infrastructure
+# --- Products Dropdown ---
 [[main]]
-name = "AI"
+name = "Products"
+url = "#"
+weight = 1
+
+[[main]]
 parent = "Products"
+name = "AI: Distributed Inference"
+url = "/products/distributed-inference"
 weight = 10
 
 [[main]]
-name = "Distributed Inference"
-parent = "AI"
-url = "/products/distributed-inference"
-
-[[main]]
-name = "Fabric for AI"
-parent = "AI"
-url = "/products/ai-fabric"
-
-[[main]]
-name = "AI Gateway"
-parent = "AI"
-url = "/products/ai-gateway"
-
-# Compute
-[[main]]
-name = "Compute"
 parent = "Products"
+name = "AI: Fabric for AI"
+url = "/products/ai-fabric"
+weight = 11
+
+[[main]]
+parent = "Products"
+name = "AI: Gateway"
+url = "/products/ai-gateway"
+weight = 12
+
+[[main]]
+parent = "Products"
+name = "Compute: Bare Metal"
+url = "/products/bare-metal"
 weight = 20
 
 [[main]]
-name = "Bare Metal"
-parent = "Compute"
-url = "/products/bare-metal"
-
-[[main]]
-name = "Virtual Machine"
-parent = "Compute"
-url = "/products/virtual-machine"
-
-# Networking
-[[main]]
-name = "Networking"
 parent = "Products"
+name = "Compute: Virtual Machine"
+url = "/products/virtual-machine"
+weight = 21
+
+[[main]]
+parent = "Products"
+name = "Network: Private Connect (IEPL)"
+url = "/products/private-connect"
 weight = 30
 
 [[main]]
-name = "Private Connect (IEPL)"
-parent = "Networking"
-url = "/products/private-connect"
-
-[[main]]
-name = "Cloud Connect"
-parent = "Networking"
-url = "/products/cloud-connect"
-
-[[main]]
-name = "IP Transit & DIA"
-parent = "Networking"
-url = "/products/ip-transit"
-
-[[main]]
-name = "Virtual Edge"
-parent = "Networking"
-url = "/products/virtual-edge"
-
-# IDC
-[[main]]
-name = "Colocation"
 parent = "Products"
+name = "Network: Cloud Connect"
+url = "/products/cloud-connect"
+weight = 31
+
+[[main]]
+parent = "Products"
+name = "Network: IP Transit & DIA"
+url = "/products/ip-transit"
+weight = 32
+
+[[main]]
+parent = "Products"
+name = "Network: Virtual Edge"
+url = "/products/virtual-edge"
+weight = 33
+
+[[main]]
+parent = "Products"
+name = "Colocation"
 url = "/products/colocation"
 weight = 40
+
+# --- Solutions Dropdown ---
+[[main]]
+name = "Solutions"
+url = "#"
+weight = 2
+
+[[main]]
+parent = "Solutions"
+name = "Cross-border Networking"
+url = "/solutions/cross-border"
+weight = 1
+
+[[main]]
+parent = "Solutions"
+name = "China AI Model Access"
+url = "/solutions/ai-access"
+weight = 2
+
+[[main]]
+parent = "Solutions"
+name = "Compliance & ICP Support"
+url = "/solutions/compliance"
+weight = 3
+
+# --- Top Level Items ---
+[[main]]
+name = "Resources"
+url = "/resources"
+weight = 3
+
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 4
+
+[[main]]
+name = "Company"
+url = "/about"
+weight = 5
+
+# -------------------------------------------------------------------
+# Footer Menu
+# -------------------------------------------------------------------
+
+[[footer]]
+name = "Products"
+url = "/products/private-connect"
+weight = 1
+
+[[footer]]
+name = "Solutions"
+url = "/solutions/cross-border"
+weight = 2
+
+[[footer]]
+name = "Network Matrix"
+url = "/resources/network-matrix"
+weight = 3
+
+[[footer]]
+name = "About Us"
+url = "/about"
+weight = 4
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 5
+
+[[footer]]
+name = "Terms of Service"
+url = "/terms"
+weight = 6
