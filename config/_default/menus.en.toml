@@ -42,7 +42,7 @@ weight = 2
 
 [[main]]
 parent = "compute"
-name = "Virtual Machine"
+name = "VM"
 url = "/products/virtual-machine"
 weight = 1
 
