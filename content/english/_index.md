@@ -1,12 +1,12 @@
 ---
 # Banner
 banner:
-  title: "Your One-Stop China **Infrastructure** Gateway"
+  title: "Your One-Stop Gateway to China's Compliant Infrastructure."
   content: "While others focus on software logic, we focus on the **Physical Reality** of China connectivity. No AI fluff—just low-latency circuits, compliant cloud accounts, and real-world infrastructure."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Fork Deploy and Edit Online 🚀"
+    label: " View Network Matrix 🚀"
     link: "https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate/"
 
 # Features
